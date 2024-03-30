@@ -1,0 +1,32 @@
+.upload-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    @media (max-width: 767px){
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .question-upload {
+        border: 4px dashed var(--lighter-gray);
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+        .upload-icon{
+            display: flex;
+            justify-content: center;
+        }
+        p{
+            margin-bottom: 0;
+        }
+    }
+    .scan-code{
+        background-color: var(--theme-light-red);
+        border-radius: 5px;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        p{
+            margin-bottom: 0;
+        }
+    }
+}

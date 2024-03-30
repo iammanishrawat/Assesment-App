@@ -1,0 +1,25 @@
+.auth-page {
+  background-color: var(--lightest-gray);
+  min-height: 100vh;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .login-box {
+    width: 450px;
+    padding: 30px;
+    border: 1px solid var(--lighter-gray);
+    background-color: var(--white-color);
+    border-radius: 10px;
+    img{
+      margin: 0px auto 15px;
+      filter: invert(1);
+      width: 25%;
+    }
+    h4,
+    p {
+      text-align: center;
+      margin-bottom: 0;
+    }
+  }
+}
